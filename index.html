@@ -17,6 +17,11 @@
     <header class="header">
         <div class="container header-container">
             <a class="logo link" href="./index.html">WEB<span class="logo-header">STUDIO</span></a>
+            <button type="button" class="mobile-menu-open" data-menu-open>
+                <svg class="open-icon" width="32" height="22">
+                    <use href="./images/sprite.svg#hamburger"></use>
+                </svg>
+            </button>
             <nav class="nav">
                 <ul class="nav-menu list">
                     <li class="nav-menu-item">
@@ -39,6 +44,55 @@
                 </li>
             </ul>
         </div>
+        <div class="mobile-menu" data-menu>
+            <div class="mobile-menu-container container">
+                <button type="button" class="mobile-menu-btn" data-menu-close>
+                    <svg class="mobile-menu-icon" width="8" height="8">
+                        <use href="./images/sprite.svg#icon-close-btn"></use>
+                    </svg>
+                </button>
+                <ul class="mobile-menu-list-nav list">
+                    <li class="mobile-menu-item link"><a href="" class="mobile-menu-link link" href="./index.html">Studio</a></li>
+                    <li class="mobile-menu-item link"><a href="" class="mobile-menu-link link" href="./portfolio.html">Portfolio</a></li>
+                    <li class="mobile-menu-item link"><a href="" class="mobile-menu-link link current" href="./contacts">Contacts</a></li>
+                </ul>
+                <ul class="mobile-menu-list-contact list">
+                    <li class="mobile-contact-item link"><a href="tel:+110001111111" class="mobile-menu-tel link current">+11 (000) 111-11-11</a></li>
+                    <li class="mobile-contact-item link"><a href="mailto:info@devstudio.com" class="mobile-menu-mail link">info@devstudio.com</a></li>
+                </ul>
+                <ul class="mobile-menu-list-social list">
+                    <li class="social-list-item">
+                        <a href="" class="social-list-link link">
+                            <svg class="social-icon" width="16" height="16">
+                                <use href="./images/sprite.svg#instagram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-list-item">
+                        <a href="" class="social-list-link link">
+                            <svg class="social-icon" width="16" height="16">
+                                <use href="./images/sprite.svg#twitter"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-list-item">
+                        <a href="" class="social-list-link link">
+                            <svg class="social-icon" width="16" height="16">
+                                <use href="./images/sprite.svg#facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-list-item">
+                        <a href="" class="social-list-link link">
+                            <svg class="social-icon" width="16" height="16">
+                                <use href="./images/sprite.svg#linkedin"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
     </header>
     <!-- Main Section -->
     <main>
@@ -60,8 +114,10 @@
                                 <use href="./images/sprite.svg#antenna"></use>
                             </svg>
                         </div>
-                        <h3 class="features-subtitle">Strategy</h3>
-                        <p class="features-item">Our goal is to identify the business problem to walk away with the perfect and creative solution.</p>
+                        <div class="feature-desc">
+                            <h3 class="features-subtitle">Strategy</h3>
+                            <p class="features-item">Our goal is to identify the business problem to walk away with the perfect and creative solution.</p>
+                        </div>
                     </li>
                     <li class="features-list-item">
                         <div class="features-card">
@@ -69,8 +125,10 @@
                                 <use href="./images/sprite.svg#clock"></use>
                             </svg>
                         </div>
-                        <h3 class="features-subtitle">Punctuality</h3>
-                        <p class="features-item">Bring the key message to the brand's audience for the best price within the shortest possible time.</p>
+                        <div class="feature-desc">
+                            <h3 class="features-subtitle">Punctuality</h3>
+                            <p class="features-item">Bring the key message to the brand's audience for the best price within the shortest possible time.</p>
+                        </div>
                     </li>
                     <li class="features-list-item">
                         <div class="features-card">
@@ -78,8 +136,10 @@
                                 <use href="./images/sprite.svg#diagram"></use>
                             </svg>
                         </div>
-                        <h3 class="features-subtitle">Diligence</h3>
-                        <p class="features-item">Research and confirm brands that present the strongest digital growth opportunities and minimize risk.</p>
+                        <div class="feature-desc">
+                            <h3 class="features-subtitle">Diligence</h3>
+                            <p class="features-item">Research and confirm brands that present the strongest digital growth opportunities and minimize risk.</p>
+                        </div>
                     </li>
                     <li class="features-list-item">
                         <div class="features-card">
@@ -87,8 +147,10 @@
                                 <use href="./images/sprite.svg#astronaut"></use>
                             </svg>
                         </div>
-                        <h3 class="features-subtitle">Technologies</h3>
-                        <p class="features-item">Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p>
+                        <div class="feature-desc">
+                            <h3 class="features-subtitle">Technologies</h3>
+                            <p class="features-item">Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p>
+                        </div>
                     </li>
                 </ul>
             </div>
@@ -379,7 +441,7 @@
         </div>
     </footer>
     <!-- Modal -->
-    <div class="backdrop is-hidden" data-modal>
+    <!-- <div class="backdrop is-hidden" data-modal>
         <div class="modal">
             <button class="close-btn" type="button" data-modal-close>
                 <svg class="close-btn-icon" width="8" height="8">
@@ -449,7 +511,8 @@
                 <button type="submit" class="modal-form-submit">Send</button>
             </form>
         </div>
-    </div>
-    <script src="./js/modal.js"></script>
+    </div> -->
+    <script src="/js/mobile-menu.js"></script>
+    <!-- <script src="./js/modal.js"></script> -->
 </body>
 </html>
