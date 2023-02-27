@@ -630,7 +630,7 @@ img {
     }
 
     .hero-title {
-        width: 100%px;
+        width: 100%;
         padding-left: 317px;
         padding-right: 317px;
         margin-bottom: 48px;
@@ -1700,141 +1700,16 @@ img {
 
 @media screen and (min-width: 1200px) {
 
-}
-
-/* .footer {
-    padding-top: 100px;
-    padding-bottom: 100px;
-    max-width: 1440px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.footer .logo {
-    padding-top: 0;
-    padding-bottom: 0;
-    margin-bottom: 16px;
-    margin-right: 0;
-}
-
-.logo-footer {
-    color: var(--light-text-color);
-}
-
-.footer-txt {
-width: 264px;
-
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: var(--cornflower-text-color);
-}
-
-.footer-list {
-    display: flex;
-}
-
-.footer-list-item:nth-child(2) {
-    margin-left: 120px;
-}
-
-.subscribe {
-    margin-left: 80px;
-}
-
-.social-title {
-    display: block;
-    margin-bottom: 16px;
-
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--white-color);
-}
-
-.footer .social-list-link {
-    background: rgba(255, 255, 255, 0.1);
-    transition: background-color var(--transition);
-}
-
-.footer .social-list-link:hover,
-.footer .social-list-link:focus {
-    background-color: var(--social-color);
-} */
-
-/* ==================FOOTER FORM=================== */
-
-/* .subscribe {
+    .footer-list {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-left: 0;
+        padding-right: 0;
+        gap: 0;
+        justify-content: space-around;
+    }
 
 }
-
-.subscribe-title {
-    display: block;
-    margin-bottom: 16px;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--white-color);
-}
-
-.subscribe-form {
-    display: flex;
-    justify-content: end;
-    align-items: center;
-    gap: 24px;
-}
-
-.email-form-field {
-
-}
-
-.email-input {
-    width: 244px;
-    height: 40px;
-    padding-left: 18px;
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-    border-radius: 4px;
-    font-size: 12px;
-    line-height: 2.0;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.04em;
-    color: rgba(255, 255, 255, 0.6);
-    background-color: transparent;
-}
-
-.subscribe-btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 16px;
-    min-width: 165px;
-    height: 40px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-left: 24px;
-    padding-right: 24px;
-    border: none;
-    align-self: center;
-
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    color: var(--white-color);
-    background: var(--accent-color);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-    cursor: pointer;
-    transition: background-color var(--transition);
-}
-
-.subscribe-btn:hover,
-.subscribe-btn:focus {
-    background-color: var(--active-color); 
-} */
 
 /* ==================/FOOTER FORM================== */
 
@@ -1913,10 +1788,6 @@ color: var(--cornflower-text-color);
 .close-btn:focus .close-btn-icon{
     fill: var(--white-color);    
 }
-
-/* ==================/MODAL WINDOW=================== */
-
-/* ===================MODAL FORM=================== */
 
 .modal-form {
     display: flex;
@@ -2074,7 +1945,7 @@ color: var(--cornflower-text-color);
     background-color: var(--active-color);    
 }
 
-/* ==================/MODAL FORM=================== */
+/* ==================/MODAL WINDOW=================== */
 
 
 

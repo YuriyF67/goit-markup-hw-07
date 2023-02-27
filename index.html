@@ -160,9 +160,47 @@
             <div class="container">
                 <h2 class="work-title">what are we doing</h2>
                 <ul class="work-list list">
-                    <li><img src="./images/card1.jpg" alt="Card1" width="360"></li>
-                    <li><img src="./images/card2.jpg" alt="Card2" width="360"></li>
-                    <li><img src="./images/card3.jpg" alt="Card3" width="360"></li>
+                    <li>
+                        <picture>
+                            <source 
+                                srcset="./images/work/img-1.webp 1x, ./images/work/img-1@2x.webp 2x" 
+                                media="(min-width: 1200px)" 
+                                type="image/webp"
+                            />
+                            <source 
+                                srcset="./images/work/img-1.jpg 1x, ./images/work/img-1@2x.jpg 2x," 
+                                media="(min-width: 1200px)" 
+                            />
+                            <img src="./images/work/img-1.jpg" alt="Card1" class="picture-image" width="360">
+                        </picture>
+                    </li>
+                    <li>
+                        <picture>
+                            <source 
+                                srcset="./images/work/img-2.webp 1x, ./images/work/img-2@2x.webp 2x" 
+                                media="(min-width: 1200px)" 
+                                type="image/webp"
+                            />
+                            <source 
+                                srcset="./images/work/img-2.jpg 1x, ./images/work/img-2@2x.jpg 2x," 
+                                media="(min-width: 1200px)" 
+                            />
+                            <img src="./images/work/img-2.jpg" alt="Card2" class="picture-image" width="360">
+                        </picture>                    </li>
+                    <li>
+                        <picture>
+                            <source 
+                                srcset="./images/work/img-3.webp 1x, ./images/work/img-3@2x.webp 2x" 
+                                media="(min-width: 1200px)" 
+                                type="image/webp"
+                            />
+                            <source 
+                                srcset="./images/work/img-3.jpg 1x, ./images/work/img-3@2x.jpg 2x," 
+                                media="(min-width: 1200px)" 
+                            />
+                            <img src="./images/work/img-3.jpg" alt="Card3" class="picture-image" width="360">
+                        </picture>
+                    </li>
                 </ul>
             </div>
         </section>
@@ -172,8 +210,36 @@
                 <h2 class="team-title">Our Team</h2>
                 <ul class="team-list list">
                     <li class="team-card">
-                        <img src="./images/photo1.jpg" alt="Photo Mark" width="264">
-                        
+                        <picture>
+                            <source 
+                                srcset="./images/team/mark-desktop.webp 1x, ./images/team/mark-desktop@2x.webp 2x" 
+                                media="(min-width: 1200px)" 
+                                type="image/webp"
+                            />
+                            <source 
+                                srcset="./images/team/mark-desktop.jpg 1x, ./images/team/mark-desktop@2x.jpg 2x" 
+                                media="(min-width: 1200px)" 
+                            />
+                            <source 
+                                srcset="./images/team/mark-tablet.webp 1x, ./images/team/mark-tablet@2x.webp 2x," 
+                                media="(min-width: 768px)" 
+                                type="image/webp"
+                            />
+                            <source 
+                                srcset="./images/team/mark-tablet.jpg 1x, ./images/team/mark-tablet@2x.jpg 2x,"
+                                media="(min-width: 768px)" 
+                            />
+                            <source 
+                                srcset="./images/team/mark-mobile.webp 1x, ./images/team/mark-mobile@2x.webp 2x," 
+                                media="(max-width: 767px)" 
+                                type="image/webp"
+                            />
+                            <source 
+                                srcset="./images/team/mark-mobile.jpg 1x, ./images/team/mark-mobile@2x.jpg 2x,"
+                                media="(max-width: 767px)" 
+                            />
+                            <img src="./images/team/mark-mobile.jpg" alt="Photo Mark" class="picture-image">
+                        </picture>
                         <div class="team-card-text">
                             <h3 class="team-name">Mark Guerrero</h3>
                             <p class="team-item">Product Designer</p>
@@ -210,8 +276,36 @@
                         </div>
                     </li>
                     <li class="team-card">
-                        <img src="./images/photo2.jpg" alt="Photo Tom" width="264">
-                        
+                        <picture>
+                            <source 
+                                srcset="./images/team/tom-desktop.webp 1x, ./images/team/tom-desktop@2x.webp 2x" 
+                                media="(min-width: 1200px)" 
+                                type="image/webp"
+                            />
+                            <source 
+                                srcset="./images/team/tom-desktop.jpg 1x, ./images/team/tom-desktop@2x.jpg 2x" 
+                                media="(min-width: 1200px)" 
+                            />
+                            <source 
+                                srcset="./images/team/tom-tablet.webp 1x, ./images/team/tom-tablet@2x.webp 2x," 
+                                media="(min-width: 768px)" 
+                                type="image/webp"
+                            />
+                            <source 
+                                srcset="./images/team/tom-tablet.jpg 1x, ./images/team/tom-tablet@2x.jpg 2x,"
+                                media="(min-width: 768px)" 
+                            />
+                            <source 
+                                srcset="./images/team/tom-mobile.webp 1x, ./images/team/tom-mobile@2x.webp 2x," 
+                                media="(max-width: 767px)" 
+                                type="image/webp"
+                            />
+                            <source 
+                                srcset="./images/team/tom-mobile.jpg 1x, ./images/team/tom-mobile@2x.jpg 2x,"
+                                media="(max-width: 767px)" 
+                            />
+                            <img src="./images/team/tom-mobile.jpg" alt="Photo Tom" class="picture-image">
+                        </picture>                        
                         <div class="team-card-text">
                             <h3 class="team-name">Tom Ford</h3>
                             <p class="team-item">Frontend Developer</p>
@@ -248,8 +342,36 @@
                         </div>
                     </li>
                     <li class="team-card">
-                        <img src="./images/photo3.jpg" alt="Photo Camila" width="264">
-                        
+                        <picture>
+                            <source 
+                                srcset="./images/team/camila-desktop.webp 1x, ./images/team/camila-desktop@2x.webp 2x" 
+                                media="(min-width: 1200px)" 
+                                type="image/webp"
+                            />
+                            <source 
+                                srcset="./images/team/camila-desktop.jpg 1x, ./images/team/camila-desktop@2x.jpg 2x" 
+                                media="(min-width: 1200px)" 
+                            />
+                            <source 
+                                srcset="./images/team/camila-tablet.webp 1x, ./images/team/camila-tablet@2x.webp 2x," 
+                                media="(min-width: 768px)" 
+                                type="image/webp"
+                            />
+                            <source 
+                                srcset="./images/team/camila-tablet.jpg 1x, ./images/team/camila-tablet@2x.jpg 2x,"
+                                media="(min-width: 768px)" 
+                            />
+                            <source 
+                                srcset="./images/team/camila-mobile.webp 1x, ./images/team/camila-mobile@2x.webp 2x," 
+                                media="(max-width: 767px)" 
+                                type="image/webp"
+                            />
+                            <source 
+                                srcset="./images/team/camila-mobile.jpg 1x, ./images/team/camila-mobile@2x.jpg 2x,"
+                                media="(max-width: 767px)" 
+                            />
+                            <img src="./images/team/camila-mobile.jpg" alt="Photo Camila" class="picture-image">
+                        </picture>                               
                         <div class="team-card-text">
                             <h3 class="team-name">Camila Garcia</h3>
                             <p class="team-item">Marketing</p>
@@ -286,8 +408,36 @@
                         </div>
                     </li>
                     <li class="team-card">
-                        <img src="./images/photo4.jpg" alt="Photo Daniel" width="264">
-                        
+                        <picture>
+                            <source 
+                                srcset="./images/team/daniel-desktop.webp 1x, ./images/team/daniel-desktop@2x.webp 2x" 
+                                media="(min-width: 1200px)" 
+                                type="image/webp"
+                            />
+                            <source 
+                                srcset="./images/team/daniel-desktop.jpg 1x, ./images/team/daniel-desktop@2x.jpg 2x" 
+                                media="(min-width: 1200px)" 
+                            />
+                            <source 
+                                srcset="./images/team/daniel-tablet.webp 1x, ./images/team/daniel-tablet@2x.webp 2x," 
+                                media="(min-width: 768px)" 
+                                type="image/webp"
+                            />
+                            <source 
+                                srcset="./images/team/daniel-tablet.jpg 1x, ./images/team/daniel-tablet@2x.jpg 2x,"
+                                media="(min-width: 768px)" 
+                            />
+                            <source 
+                                srcset="./images/team/daniel-mobile.webp 1x, ./images/team/daniel-mobile@2x.webp 2x," 
+                                media="(max-width: 767px)" 
+                                type="image/webp"
+                            />
+                            <source 
+                                srcset="./images/team/daniel-mobile.jpg 1x, ./images/team/daniel-mobile@2x.jpg 2x,"
+                                media="(max-width: 767px)" 
+                            />
+                            <img src="./images/team/daniel-mobile.jpg" alt="Photo Daniel" class="picture-image">
+                        </picture>                        
                         <div class="team-card-text">
                             <h3 class="team-name">Daniel Wilson</h3>
                             <p class="team-item">UI Designer</p>
@@ -441,7 +591,7 @@
         </div>
     </footer>
     <!-- Modal -->
-    <!-- <div class="backdrop is-hidden" data-modal>
+    <div class="backdrop is-hidden" data-modal>
         <div class="modal">
             <button class="close-btn" type="button" data-modal-close>
                 <svg class="close-btn-icon" width="8" height="8">
@@ -511,8 +661,8 @@
                 <button type="submit" class="modal-form-submit">Send</button>
             </form>
         </div>
-    </div> -->
+    </div>
     <script src="/js/mobile-menu.js"></script>
-    <!-- <script src="./js/modal.js"></script> -->
+    <script src="./js/modal.js"></script>
 </body>
 </html>
